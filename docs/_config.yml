@@ -32,6 +32,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+markdown: kramdown
+
 kramdown:
   math_engine: katex
 
@@ -54,4 +56,3 @@ kramdown:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
