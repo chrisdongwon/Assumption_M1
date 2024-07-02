@@ -40,7 +40,7 @@ For the most part, yes, with one critical exception - namely zero. To see why 0 
 
 Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 times 3 is 6. There are no integers strictly between 2 and 3, and it appears that such figure is precisely the requirement for 5 to be divisible by 2. Let us formalize this intuition.  
 
-We say a number is divisible by the divisor if there exists some integer such that the integer times the divisor is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$ (More on variables in Unit 2).  
+We say a number is divisible by the divisor if there exists some integer such that the integer times the divisor is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$.
 
 So, if 0 has a reciprocal, then that means 0 divides into some integer. As a concrete example, let's see if 0 divides 100. Suppose that 0 divides 100. Then, it looks like 0 times some integer is 100. However, 0 times any number is simply 0. Does 100 equal to 0? Only if you get robbed, meaning this was probably a nonsense to begin with, and we claim that 0 does not divide 100.  
 
@@ -58,8 +58,8 @@ In other words, can we represent any integer by multiplying a bunch of numbers? 
 
 This proposition binds nicely with the definition of prime and composite numbers. Hence, let us recall that:  
 
-* Prime: any natural number greater than 1 that is divisible by only 1 and the number itself.  
-* Composite: any natural number greater than 3 that is not prime. 
+* Prime: any natural number greater than 1 that is divisible only by 1 and the number itself.  
+* Composite: any natural number greater than 3 that is not a prime. 
 
 What about 1? Well, first of all, 1 is not greater than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
 
