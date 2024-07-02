@@ -61,7 +61,7 @@ This proposition binds nicely with the definition of prime and composite numbers
 * Prime: any natural number greater than 1 that is divisible only by 1 and the number itself.  
 * Composite: any natural number greater than 3 that is not a prime. 
 
-What about 1? Well, first of all, 1 is not greater than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
+This implies that 2 is the least natural number that is prime and 4 is the least natural number that is composite. Well, what about 1? Well, first of all, 1 is not greater than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
 
 And lastly, this argument works for any integer, as any nonnegative integer is simply a natural number and a negative integer is simply a natural number multiplied by -1, where the natural numbers here have unique prime factorization to begin with.  
 
