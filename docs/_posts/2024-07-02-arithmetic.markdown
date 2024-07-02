@@ -8,9 +8,11 @@ katex: True
 
 ## Natural Numbers
 
-Let us begin with some basic notions of arithmetic (number theory):  
+Let us begin with some basic notions of arithmetic (number theory):
 
-* Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$  
+$$ /Sigma $$
+
+* Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$
 (Here, $$\mathbb{N}$$ represents the _set_ of natural numbers.)  
 
 Notice that the only reasonable operation to perform on the natural numbers is addition, and conseqeuently multiplication, which is simply repeated addition in our case.  
