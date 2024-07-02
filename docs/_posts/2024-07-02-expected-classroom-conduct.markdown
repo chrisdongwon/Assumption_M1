@@ -9,10 +9,7 @@ In order to facilitate a positive learning experience for all, I will kindly req
 
 1. Please do not touch each other. Not only this distracts me from delivering lectures, it also distracts your peers who are being touched.
 
-1. Please only have class-related items on your desk. This implies:
-    * No wallets
-    * No toys
-    * No classroom material from other courses
+1. Please only have class-related items on your desk. This implies that you may not have your wallets out, no toys and games, and materials from other courses. 
 
 1. Liquids and iPads do not mix well, if not at all. Please have any beverages either in your bag or on the ground, i.e. not on the desk.
 
