@@ -10,7 +10,7 @@ katex: True
 
 Let us begin with some basic notions of arithmetic (number theory):
 
-$$ /Sigma $$
+$$ \Sigma $$
 
 * Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$
 (Here, $$\mathbb{N}$$ represents the _set_ of natural numbers.)  
