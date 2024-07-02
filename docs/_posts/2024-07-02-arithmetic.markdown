@@ -58,8 +58,8 @@ In other words, can we represent any integer by multiplying a bunch of numbers? 
 
 This proposition binds nicely with the definition of prime and composite numbers. Hence, let us recall that:  
 
-> * Prime: any natural number greater than 1 that is divisible by only 1 and the number itself.  
-> * Composite: any natural number greater than 3 that is not prime. 
+* Prime: any natural number greater than 1 that is divisible by only 1 and the number itself.  
+* Composite: any natural number greater than 3 that is not prime. 
 
 What about 1? Well, first of all, 1 is not greater than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
 
@@ -69,10 +69,10 @@ And lastly, this argument works for any integer, as any nonnegative integer is s
 
 Now, we have enough background to really _define_ what we mean by fractions. Mathematicians refer to fractions as the _rational numbers_, hence both the terms will be used interchangeably.
 
-> * Rational number: a number of the form $$\frac{n}{d}$$, where  
->    1. $$n$$ and $$d$$ are integers  
->    2. $$d$$ is not zero (For the reasons detailed in the above section)
->    3. all common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_.  
+ * Rational number: a number of the form $$\frac{n}{d}$$, where  
+    1. $$n$$ and $$d$$ are integers  
+    2. $$d$$ is not zero (For the reasons detailed in the above section)
+    3. all common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_.  
 
 As you may have guessed, $$n$$ stands for the numerator, the top number, and $$d$$ stands for denominator, 
 
