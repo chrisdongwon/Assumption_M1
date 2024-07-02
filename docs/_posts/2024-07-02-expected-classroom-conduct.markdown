@@ -10,3 +10,8 @@ In order to facilitate a positive learning experience for all, I will kindly req
 1. Please do not touch each other. Not only this distracts me from delivering lectures, it also distracts your peers who are being touched. In other words,
 
 > NO TOUCHY!
+
+2. Please only have class-related items on your desk. This implies:
+* No wallets
+* No toys
+* No classroom material from other courses
