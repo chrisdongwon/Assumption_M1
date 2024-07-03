@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fundamental Theorem of Arithmetic"
-date:   2024-07-01 00:00:00 +0000
+date:   2024-07-02 00:00:00 +0000
 categories: lecture notes
 katex: True
 ---
@@ -32,9 +32,9 @@ Now, the number 0 has a bit more significance than it did with just the natural 
 
 In a similar sense, it appears that the existence of _fractions_ is the requirement to facilitate the operation that we referred to as division. Analogously, in an algebraic sense, division is multiplication by the _multiplicative inverse_, and we refer to the inverse here as the **reciprocal**. 
 
-The notion of fraction and division are closely related - at the end of the day, the quantity in question is part over whole, and computationally, we find such value by performing long-division. 
+The notion of fraction and division are closely related - at the end of the day, the quantity in question is part over whole, and computationally, we find such value by performing long-division, e.g. repeated subtraction. 
 
-As far as addition and subtraction were concerned, it appears that for all integers, there exists a negative inverse, namely the _opposites_. For examples, $$1 + (-1) = 0$$, $$(-50) + -(-50) = 0$$, and similarly, $$0 + (-0) = 0$$. So, a natural question to ask is, **does any integer have a reciprocal?**
+As far as addition and subtraction are concerned, it appears that for all integers, there exists a negative inverse, namely the _opposites_. For examples, $$1 + (-1) = 0$$, $$(-50) + -(-50) = 0$$, and similarly, $$0 + (-0) = 0$$. So, a natural question to ask is, **does any integer have a reciprocal?**
 
 For the most part, yes, with one critical exception - namely zero. To see why 0 does not have a reciprocal, i.e. the multiplicative inverse, let us consider what we mean by being able to divide in the first place. As a motivating example, we see that 3 divides into 27 because 3 times 9 is 27. We see that 5 divides into 40 because 5 times 8 is 40.  
 
@@ -42,29 +42,41 @@ Similarly, we see that 2 does not divide into 5 because 2 times 2 is 4 and 2 tim
 
 We say a number is divisible by the divisor if there exists some integer such that the integer times the divisor is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$.
 
-So, if 0 has a reciprocal, then that means 0 divides into some integer. As a concrete example, let's see if 0 divides 100. Suppose that 0 divides 100. Then, it looks like 0 times some integer is 100. However, 0 times any number is simply 0. Does 100 equal to 0? Only if you get robbed, meaning this was probably a nonsense to begin with, and we claim that 0 does not divide 100.  
+So, if 0 has a reciprocal, then that means 0 divides into some integer. As a concrete example, let's see if 0 divides 100. In order for 100 to be divisible by 0, it looks like 0 times some integer should be 100. However, 0 times any number is simply 0. Does 100 equal to 0? Only if you get robbed, meaning this was probably a nonsense to begin with, and we claim that 0 does not divide 100.  
 
-As a matter of fact, 100 can be replaced with any nonzero integer, and the same conclusion holds. This implies that 0 does not divide any number and hence there does NOT exist a reciprocal (the multiplicative inverse) for 0.
+As a matter of fact, 100 can be replaced with any nonzero integer, and the same conclusion holds. This implies that 0 does not divide any number and hence **there does NOT exist a reciprocal (the multiplicative inverse) for 0**.
 
 With this notion of divisibility, let us see what kind of integers are divisible and what kind of integers are indivisible. This concept reduces to the existence of the prime numbers and the composite integers.
 
 ## Primality
 
-We witnessed how any natural number can be represented by adding a _bunch_ of 1's. In a similar sense, can we represent any negative integer with a repeated addition of -1. As an example, see that -3 = (-1) + (-1) + (-1). So, as the bare minimum, it appears that -1, 0, and 1 are the _building blocks_ for the set of integers in the context of addition. What kind of analogy can we make here in regards to multiplication?  
+We witnessed how any natural number can be represented by adding a _bunch_ of 1's. In a similar sense, can we represent any negative integer with a repeated addition of -1. As an example, see that -3 = (-1) + (-1) + (-1). So, as the bare minimum, it appears that -1, 0, and 1 are the _building blocks_ (technically known as the __generators__ in the field of mathematics called Abstract Algebra) for the set of integers in the context of addition. What kind of analogy can we make here in regards to multiplication?  
 
-In other words, can we represent any integer by multiplying a bunch of numbers? If so, what are those _numbers_ called? This brings us to the notion of [the Fundamental Theorem of Arithmetic](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic), which states that:  
+In other words, can we represent __any integer__ by multiplying a bunch of numbers? If so, what are those numbers called? This brings us to the notion of [the Fundamental Theorem of Arithmetic](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic), which states that:  
 
-**Any natural number greater than 1 is either a prime, or a product of primes, where such product is uniquely determined by the primes and their exponents.** (Uniqueness here simply means there is only one way and one way only to write such _prime factorization_. As an intuitive example, $$4 = 2^2$$, and this is the only way to express 4 as a product of primes.)  
+**Any natural number greater than 1 is either a prime, or a product of primes, where such product is uniquely determined by the primes and their exponents.** (Uniqueness here simply means there is only one way and one way only to write such _prime factorization_. As an intuitive example, $$8 = 2 \times 2 \times 2 = 2^3$$, and this is the only way to express 8 as a product of primes. The small 3 in the upper right corner indicates an exponent, which is the number of repeated multiplication with the same number, also known as the __base__ - 2 in our case here.)  
 
 This proposition binds nicely with the definition of prime and composite numbers. Hence, let us recall that:  
 
 * Prime: any natural number greater than 1 that is divisible only by 1 and the number itself.  
 * Composite: any natural number greater than 3 that is not a prime. 
 
-This implies that 2 is the least natural number that is prime and 4 is the least natural number that is composite. Well, what about 1? Well, first of all, 1 is not greater than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**.  
+This implies that 2 is the least natural number that is prime and 4 is the least natural number that is composite. Well, what about 1? Well, first of all, 1 is not greater than 3, so it certainly is not composite. Is it prime then? Unfortunately, [no](https://en.wikipedia.org/wiki/Prime_number#Primality_of_one). Therefore, we say that, by convention, **1 is neither a prime nor a composite**, and the same argument can be said about 0 as well. 
 
-And lastly, this argument works for any integer, as any nonnegative integer is simply a natural number and a negative integer is simply a natural number multiplied by -1, where the natural numbers here have unique prime factorization to begin with.  
+Furthermore, this argument works for any integer, as any nonnegative integer is simply a natural number and a negative integer is a natural number multiplied by -1, where the natural numbers have unique prime factorization to begin with.  
 
-## Some Computational Examples of Prime Factorization
+## Computational Examples of Prime Factorization
 
-(To be continued)
+\begin{array}{ccccc}
+
+&& \text{High-Tier} && \\
+
+& \swarrow & \downarrow & \searrow & \\
+
+\text{Connector} && \text{Child} && \text{Connector} \\
+
+\downarrow &&&& \downarrow \\
+
+\text{Child} &&&& \text{Child}
+
+\end{array}
