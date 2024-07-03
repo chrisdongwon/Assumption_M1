@@ -67,16 +67,8 @@ Furthermore, this argument works for any integer, as any nonnegative integer is 
 
 ## Computational Examples of Prime Factorization
 
-$$\begin{array}{ccccc}
+* For any prime number $$p$$, $$p$$ is already in its factorization as there are no prime factors in a prime. For instance, $$31$$ is the only way to write the factorization as $$31$$ is already a prime to begin with.
 
-&& \text{High-Tier} && \\
+* Let $$n$$ be a composite number. Then, by the fundamental theorem of arithmetic, there exist unique prime factors for $$n$$. For instance, let us perform the prime factorization on $$n = 102$$. First of all, $$102$$ is an even number, hence it is divisible by the smallest prime number, namely $$2$$. Thus, we see that $$102 = 2 \times 51$$. Now, $$51$$ looks like a prime number, but it is actually divisible by $$3$$, which is also a prime. With $$51 = 3 \times 17$$, it follows that the prime factorization of $$102$$ is $$102 = 2 \times 3 \times \17$$, where $$2,3,17$$ are all prime numbers.
 
-& \swarrow & \downarrow & \searrow & \\
-
-\text{Connector} && \text{Child} && \text{Connector} \\
-
-\downarrow &&&& \downarrow \\
-
-\text{Child} &&&& \text{Child}
-
-\end{array}$$
+* Let $$n=256$$. Notice that $$256 = 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2$$. Hence, we can say that $$256 = 2^{8}$$ is the prime factorization of $$256$$
