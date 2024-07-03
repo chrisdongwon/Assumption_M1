@@ -15,7 +15,7 @@ Let us begin with some basic notions of arithmetic (number theory):
 
 Notice that the only reasonable operation to perform on the natural numbers is addition, and consequently multiplication, which is simply repeated addition in our case.  
 
-Also, it appears that we just need 0 and 1 in order to express any natural number in terms of addition. As an example, $$4 = ((((0 + 1) + 1) + 1) + 1)$$, meaning perhaps, the symbol 4 is simply a representation of four instance of 1's in series. For a deep explanation on this, look into [Peano Axioms](https://en.wikipedia.org/wiki/Peano_axioms).
+Also, it appears that we just need $$0$$ and $$1$$ in order to express any natural number in terms of addition. As an example, $$4 = ((((0 + 1) + 1) + 1) + 1)$$, meaning perhaps, the symbol $$4$$ is simply a representation of four instances of $$1$$ in additional series. For a deep explanation on this, look into [Peano Axioms](https://en.wikipedia.org/wiki/Peano_axioms).
 
 ## Integers
 
@@ -78,11 +78,11 @@ For a visualization of this process, refer to the **prime factorization tree** b
 $$
 \begin{array}{ccccc}
 
-&& \text{High-Tier} && \\
+&& 102 && \\
 
-& \swarrow & \downarrow & \searrow & \\
+& \swarrow & \searrow & \\
 
-\text{Connector} && \text{Child} && \text{Connector} \\
+2 && 51 \\
 
 \downarrow &&&& \downarrow \\
 
