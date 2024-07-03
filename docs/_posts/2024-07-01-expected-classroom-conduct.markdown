@@ -17,6 +17,6 @@ In order to facilitate a positive learning experience for all, I will kindly req
 
 1. As the instructor of the course, I reserve the rights to speak in order to proceed with the curriculum. Please respect this and only have one person speak at a time. It can be very loud and disturbing to hear many students speaking all at once, and I can only speak so loudly.
 
-1. If I must repeatedly ask you to adhere to the guidelines, I will request that we have a discussion about the classroom conduct after the course. Failure or refusal to discuss will result in the intervention by the disciplines office, i.e. you will be referred to one of the school masters to discuss the classroom behavior in a formal setting.
+1. If I must repeatedly ask you to adhere to the guidelines, I will request that we have a discussion about the classroom conduct after the course. Failure or refusal to discuss will result in an intervention by the disciplines office, i.e. you will be referred to one of the school masters to discuss the classroom behavior in a formal setting.
 
 Once again, it is a privilege and a great honor to be the instructor of your course, and I hope that adhering to the aforementioned rules will help us maintain a pleasant learning environment. Thank you very much for your cooperation.
