@@ -65,19 +65,6 @@ This implies that 2 is the least natural number that is prime and 4 is the least
 
 And lastly, this argument works for any integer, as any nonnegative integer is simply a natural number and a negative integer is simply a natural number multiplied by -1, where the natural numbers here have unique prime factorization to begin with.  
 
-## Rational Numbers
+## Some Computational Examples of Prime Factorization
 
-Now, we have enough background to really _define_ what we mean by fractions. Mathematicians refer to fractions as the _rational numbers_, hence both the terms will be used interchangeably.
-
- * Rational number: a number of the form $$\frac{n}{d}$$, where  
-    1. $$n$$ and $$d$$ are integers  
-    2. $$d$$ is not zero (For the reasons detailed in the above section)
-    3. all common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_.  
-
-As you may have guessed, $$n$$ stands for the numerator, the top number, and $$d$$ stands for denominator, 
-
-If these conditions are not satisfied, then we are looking at a number that appears to be a fraction but it really is not a fraction, mathematically speaking. We refer to the set of rational numbers with the symbol $$\mathbb{Q}$$. Why Q? Please let me know if you figure this out. 
-
-Lastly, we can easily see that all integers are rational numbers: simply set the denominator to be 1. 
-
-In the following section, the notion of variables will be slightly more formalized along with the review of the arithmetic operations on the rational numbers.
+(To be continued)
