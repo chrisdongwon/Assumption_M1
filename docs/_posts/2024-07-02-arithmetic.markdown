@@ -78,9 +78,9 @@ For a visualization of this process, refer to the **prime factorization tree** b
 $$
 \begin{array}{c}
     102 \\
-    / \quad \ \\
+    / \quad \ \backslash \\
     2 \quad \ 51 \\
-    \quad \quad / \quad \ \\
+    \quad \quad / \quad \backslash \\
     \quad \quad 3 \quad \ 17 \\
 \end{array}
 $$
