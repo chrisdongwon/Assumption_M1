@@ -53,9 +53,9 @@ To see why the second assertion is true, consider the following:
   
 ## Addition and Multiplication in Rational Numbers
 
-* Adding/subtracting Fractions: Recall that addition and subtraction in fraction only makes sense when we have a common denominator. Thus, the proposed formula gives us _any_ sum and differences of two fractions: $$\frac{a}{b} \pm \frac{c}{d} = \frac{ad \pm bc}{bd}$$. 
+* Adding/subtracting fractions: Recall that addition and subtraction in fraction only makes sense when we have a common denominator. Thus, the proposed formula gives us _any_ sum and differences of two fractions: $$\frac{a}{b} \pm \frac{c}{d} = \frac{ad \pm bc}{bd}$$. 
 
-* Multiplying/dividing Fractions: Luckily, multiplication and division are more natural operations to perform on fractions. Similarly, we state that $$\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}$$ and $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c} = \frac{ad}{bc}$$.
+* Multiplying/dividing fractions: Luckily, multiplication and division are more natural operations to perform on fractions. Similarly, we state that $$\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}$$ and $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c} = \frac{ad}{bc}$$.
 
 ## Exponentiation (a.k.a. Powers)
 
