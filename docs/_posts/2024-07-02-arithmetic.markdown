@@ -71,7 +71,7 @@ Furthermore, this argument works for any integer, as any nonnegative integer is 
 
 * Let $$n=256$$. Notice that $$256 = 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 2$$. Hence, we can say that $$256 = 2^{8}$$ is the prime factorization of $$256$$.
 
-* Let $$n$$ be a composite number. Then, by the fundamental theorem of arithmetic, there exist unique prime factors for $$n$$. For instance, let us perform the prime factorization on $$n = 102$$. First of all, $$102$$ is an even number, hence it is divisible by the smallest prime number, namely $$2$$. Thus, we see that $$102 = 2 \times 51$$. Now, $$51$$ looks like a prime number, but it is actually divisible by $$3$$, which is also a prime. With $$51 = 3 \times 17$$, it follows that the prime factorization of $$102$$ is $$102 = 2 \times 3 \times 17$$, where the numbers in $$\{2,3,17\}$$ are all prime numbers.
+* Let $$n$$ be a composite number. Then, by the fundamental theorem of arithmetic, there exist unique prime factors for $$n$$. For instance, let us perform the prime factorization on $$n = 102$$. First of all, $$102$$ is an even number, hence it is divisible by the smallest prime number, namely $$2$$. Thus, we see that $$102 = 2 \times 51$$. Now, $$51$$ looks like a prime number, but it is actually divisible by $$3$$, which is also a prime. With $$51 = 3 \times 17$$, it follows that $$102 = 2 \times 3 \times 17$$ is the prime factorization, where the numbers in $$\{2,3,17\}$$ are all prime numbers.
 
 For a visualization of this process, refer to the **prime factorization tree** below:
 
@@ -84,3 +84,9 @@ $$
     \quad \quad 3 \quad \ 17 \\
 \end{array}
 $$
+
+## Factors and Multiples
+
+Let us begin with the notion of __multiples__. Let $$n \in \mathbb{Z}$$. We say that the multiples of $$n$$ are of the set $$\{..., -3n, -2n, -n, 0, n, 2n, 3n, ...\} = \{nk : k \in \mathbb{Z}\}$$. 
+
+Notice in the previous example that we __extracted__ a prime in each level of the prime factorization tree, which resulted in a regular __factor__, not necessarily a __prime factor__. 
