@@ -11,3 +11,5 @@ katex: True
 1. What is the prime factorization of $$76$$? Show your work by constructing a prime factorization tree. Then, list the first 4 positive multiples and all positive factors of $$76$$. 
 
 1. How do you divide by a fraction? Compute $$\frac{2}{3} \divide \frac{5}{7}$$. Hint: division is multiplication by ...
+
+1. How do you interpret $$1 \frac{2}{3}$$? Is it the same as $$1 + \frac{2}{3}$$ or $$1 \times \frac{2}{3}$$? Explain.
