@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Midterm Exam Study Guide"
+title:  "Midterm Exam Study Guide (Updated Daily)"
 date:   2024-07-02 00:00:00 +0000
 categories: announcement
 katex: True

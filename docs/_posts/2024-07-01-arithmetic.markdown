@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fundamental Theorem of Arithmetic"
-date:   2024-07-02 00:00:00 +0000
+date:   2024-07-01 00:00:00 +0000
 categories: lecture notes
 katex: True
 ---
