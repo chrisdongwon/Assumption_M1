@@ -96,7 +96,7 @@ Let us begin with the notion of __multiples__. Let $$n \in \mathbb{Z}$$. We say 
 
 As you may have noticed, it appears that the notion of divisibility and multiples are closely related. One difference is that $$0$$ does not divide any integer and $$0$$ is a multiple of all integers. Same-same but different.
 
-Notice in the last prime factorization example that we __extracted__ a prime in each level of the prime factorization tree, which resulted in a regular __factor__ that is not necessarily a prime. This brings us to the notion of **factors**, which binds nicely with the notion of divisibility (see above). Let $$a,b \in \mathbb{Z}$, e.g. $$a$$ and $$b$$ are integers. We say that $$a$$ is a factor of $$b$$ if $$a$$ divides $$b$$, meaning that there exists an integer $$k$$ such that $$b = ak$$. Do you see how $$a$$ and $$b$$ swapped their places in the definitions for a multiple and a factor? Take a look at the following examples for better intuition:
+Notice in the last prime factorization example that we __extracted__ a prime in each level of the prime factorization tree, which resulted in a regular __factor__ that is not necessarily a prime. This brings us to the notion of **factors**, which binds nicely with the notion of divisibility (see above). Let $$a,b \in \mathbb{Z}$$, e.g. $$a$$ and $$b$$ are integers. We say that $$a$$ is a factor of $$b$$ if $$a$$ divides $$b$$, meaning that there exists an integer $$k$$ such that $$b = ak$$. Do you see how $$a$$ and $$b$$ swapped their places in the definitions for a multiple and a factor? Take a look at the following examples for better intuition:
 
 * $$\{1,2,4,8,16,32\}$$ is the set of (positive) factors for $$32$$.
 
