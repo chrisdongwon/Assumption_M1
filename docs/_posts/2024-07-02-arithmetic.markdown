@@ -87,6 +87,21 @@ $$
 
 ## Factors and Multiples
 
-Let us begin with the notion of __multiples__. Let $$n \in \mathbb{Z}$$. We say that the multiples of $$n$$ are of the set $$\{..., -3n, -2n, -n, 0, n, 2n, 3n, ...\} = \{nk : k \in \mathbb{Z}\}$$. 
+Let us begin with the notion of __multiples__. Let $$n \in \mathbb{Z}$$. We say that the multiples of $$n$$ are of the set $$\{..., -3n, -2n, -n, 0, n, 2n, 3n, ...\} = \{nk : k \in \mathbb{Z}\}$$. For example, in the __times table__ that you are often forced to memorize, you are actually listing the nine positive multiples of the integers from $$2$$ to $$9$$. Let $$a, b \in /mathbb{Z}$$, i.e. $$a$$ and $$b$$ are integers. Formally, we say that $$a$$ is a multiple of $$b$$ if there exists an integer $$k$$ such that $$a = bk$$. See the following examples for better intuition:
 
-Notice in the previous example that we __extracted__ a prime in each level of the prime factorization tree, which resulted in a regular __factor__, not necessarily a __prime factor__. 
+* $$10$$ is a multiple of $$10$$ because $$10 = 10 \times 1$$. Clearly, for all integers $$n$$, $$n$$ is a multiple of $$n$$.
+* The set of multiples of $$12$$ looks something like $$\{..., -36, -24, -12, 0, 12, 24, 36, 48, 60, ...\}$$. 
+* $$51$$ is a multiple of $$3$$ because $$51 = 3 \times 17$$. 
+* $$0$$ is a multiple of any integer, because for all integers $$n \in \mathbb{Z}$$, it follows that $$n \times 0 = 0$$.
+
+As you may have noticed, it appears that the notion of divisibility and multiples are closely related. One difference is that $$0$$ does not divide any integer and $$0$$ is a multiple of all integers. Same-same but different.
+
+Notice in the last prime factorization example that we __extracted__ a prime in each level of the prime factorization tree, which resulted in a regular __factor__ that is not necessarily a prime. This brings us to the notion of **factors**, which binds nicely with the notion of divisibility (see above). Let $$a,b \in \mathbb{Z}$, e.g. $$a$$ and $$b$$ are integers. We say that $$a$$ is a factor of $$b$$ if $$a$$ divides $$b$$, meaning that there exists an integer $$k$$ such that $$b = ak$$. Do you see how $$a$$ and $$b$$ swapped their places in the definitions for a multiple and a factor? Take a look at the following examples for better intuition:
+
+* $$\{1,2,4,8,16,32\}$$ is the set of (positive) factors for $$32$$.
+
+* Since $$31$$ is a prime number, it follows that only $$1$$ and $$32$$ are its factors. 
+
+* Because $$1$$ divides any integer, it follows that $$1$$ is a factor for any integer $$n$$, including itself. 
+
+* Things get quite tricky when $$0$$ is concerned. Since $$0$$ times any integer is $$0$$, we could say that any integer is a factor of $$0$$, meaning $$0$$ has infinitely many factors. Thus, in general, the notion of factors is not very applicable for $$0$$ as we often times ask about finitely many factors. 
