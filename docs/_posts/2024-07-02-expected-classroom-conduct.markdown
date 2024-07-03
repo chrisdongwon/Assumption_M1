@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Expected Classroom Conduct
-date:   2024-07-02 00:00:00 +0700
+date:   2024-07-02 00:00:00 +0000
 categories: announcement
 ---
 
@@ -19,4 +19,4 @@ In order to facilitate a positive learning experience for all, I will kindly req
 
 1. If I must repeatedly ask you to adhere to the guidelines, I will request that we have a discussion about the classroom conduct after the course. Failure or refusal to discuss will result in the intervention by the disciplines office, i.e. you will be referred to one of the school masters to discuss the classroom behavior in a formal setting.
 
-Once again, it is a privilege and a great honor to be the instructor of your course, and I hope that adhere to the aforementioned rules will help us maintain a pleasant learning environment. Thank you very much for your cooperation.
+Once again, it is a privilege and a great honor to be the instructor of your course, and I hope that adhering to the aforementioned rules will help us maintain a pleasant learning environment. Thank you very much for your cooperation.

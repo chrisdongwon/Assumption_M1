@@ -13,7 +13,7 @@ Let us begin with some basic notions of arithmetic (number theory):
 * Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$
 (Here, $$\mathbb{N}$$ represents the _set_ of natural numbers.)  
 
-Notice that the only reasonable operation to perform on the natural numbers is addition, and conseqeuently multiplication, which is simply repeated addition in our case.  
+Notice that the only reasonable operation to perform on the natural numbers is addition, and consequently multiplication, which is simply repeated addition in our case.  
 
 Also, it appears that we just need 0 and 1 in order to express any natural number in terms of addition. As an example, $$4 = ((((0 + 1) + 1) + 1) + 1)$$, meaning perhaps, the symbol 4 is simply a representation of four instance of 1's in series. For a deep explanation on this, look into [Peano Axioms](https://en.wikipedia.org/wiki/Peano_axioms).
 
