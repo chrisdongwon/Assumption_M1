@@ -21,7 +21,7 @@ Now, we have enough background to really _define_ what we mean by fractions. Mat
     2. $$d$$ is not zero (For the reasons detailed in the above section)
     3. all common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_.  
 
-As you may have guessed, $$n$$ stands for the numerator, the top number, and $$d$$ stands for denominator, 
+As you may have guessed, $$n$$ stands for the numerator, the top number, and $$d$$ stands for denominator.
 
 If these conditions are not satisfied, then we are looking at a number that appears to be a fraction but it really is not a fraction, mathematically speaking. We refer to the set of rational numbers with the symbol $$\mathbb{Q}$$. Why Q? Please let me know if you figure this out. 
 
@@ -33,7 +33,8 @@ Lastly, we can easily see that all integers are rational numbers: simply set the
     1. When $$a = c$$ and $$b = d$$ (The numerators and the denominators are the same)
     2. When $$ad = bc$$ ("Cross-multiplication" technique).
 
-To see why the second assertion is true, consider the following. Let's say we want to compare $$\frac{a}{b}$$ and $$\frac{c}{d}$$. In order to compare in fractions, we need to have a common denominator - intuitively speaking, it is because we are counting how many parts when each part is equally _cut_ - and the size of this _cut_ is precisely what we refer to as the denominator (or simply, the divisor). So, it appears that a common multiple of $$b$$ and $$d$$ is simply $$bd$$, and it follows that $$\frac{a}{b} = \frac{a}{b} \cdot 1 = \frac{a}{b} \cdot \frac{d}{d} = \frac{ad}{bd}$$, and similarly, $$\frac{c}{d} = 1 \cdot \frac{c}{d}= \frac{b}{b} \cdot \frac{c}{d} = \frac{bc}{bd}$$. Now can we can use the first reasoning to see how the fractions compare. 
+To see why the second assertion is true, consider the following:
+* Let's say we want to compare $$\frac{a}{b}$$ and $$\frac{c}{d}$$. In order to compare in fractions, we need to have a common denominator - intuitively speaking, it is because we are counting how many parts when each part is equally _cut_ - and the size of this _cut_ is precisely what we refer to as the denominator (or simply, the divisor). So, it appears that a common multiple of $$b$$ and $$d$$ is simply $$bd$$, and it follows that $$\frac{a}{b} = \frac{a}{b} \cdot 1 = \frac{a}{b} \cdot \frac{d}{d} = \frac{ad}{bd}$$, and similarly, $$\frac{c}{d} = 1 \cdot \frac{c}{d}= \frac{b}{b} \cdot \frac{c}{d} = \frac{bc}{bd}$$. Now can we can use the first reasoning to see how the fractions compare. 
 
 * Provided that the fractions in comparison are both positive, how do we see which fraction is greater? There are a few techniques to facilitate this:
   1. If the denominators are the same, simply compare the numerators (E.g. How many slices of pie did I eat vs. did you eat?)  
