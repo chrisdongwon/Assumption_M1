@@ -87,7 +87,7 @@ $$
 
 ## Factors and Multiples
 
-Let us begin with the notion of __multiples__. Let $$n \in \mathbb{Z}$$. We say that the multiples of $$n$$ are of the set $$\{..., -3n, -2n, -n, 0, n, 2n, 3n, ...\} = \{nk : k \in \mathbb{Z}\}$$. For example, in the __times table__ that you are often forced to memorize, you are actually listing the nine positive multiples of the integers from $$2$$ to $$9$$. Let $$a, b \in /mathbb{Z}$$, i.e. $$a$$ and $$b$$ are integers. Formally, we say that $$a$$ is a multiple of $$b$$ if there exists an integer $$k$$ such that $$a = bk$$. See the following examples for better intuition:
+Let us begin with the notion of __multiples__. Let $$n \in \mathbb{Z}$$. We say that the multiples of $$n$$ are of the set $$\{..., -3n, -2n, -n, 0, n, 2n, 3n, ...\} = \{nk : k \in \mathbb{Z}\}$$. For example, in the __times table__ that you are often forced to memorize, you are actually listing the nine positive multiples of the integers from $$2$$ to $$9$$. Let $$a, b \in \mathbb{Z}$$, i.e. $$a$$ and $$b$$ are integers. Formally, we say that $$a$$ is a multiple of $$b$$ if there exists an integer $$k$$ such that $$a = bk$$. See the following examples for better intuition:
 
 * $$10$$ is a multiple of $$10$$ because $$10 = 10 \times 1$$. Clearly, for all integers $$n$$, $$n$$ is a multiple of $$n$$.
 * The set of multiples of $$12$$ looks something like $$\{..., -36, -24, -12, 0, 12, 24, 36, 48, 60, ...\}$$. 
