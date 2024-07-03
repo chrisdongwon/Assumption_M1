@@ -75,18 +75,10 @@ Furthermore, this argument works for any integer, as any nonnegative integer is 
 
 For a visualization of this process, refer to the **prime factorization tree** below:
 
-$$
-\begin{array}{ccccc}
-
-&& 102 && \\
-
-& \swarrow & \searrow & \\
-
-2 && 51 \\
-
-\downarrow &&&& \downarrow \\
-
-\text{Child} &&&& \text{Child}
-
-\end{array}
-$$
+$$\begin{array}{c}
+        102 \\
+        / \quad \\backslash \\
+        2 \quad \ 51 \\
+        \quad \quad / \quad \\backslash \\
+        \quad \quad 3 \quad \ 17 \\
+        \end{array}$$
