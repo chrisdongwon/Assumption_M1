@@ -67,7 +67,7 @@ Furthermore, this argument works for any integer, as any nonnegative integer is 
 
 ## Computational Examples of Prime Factorization
 
-\begin{array}{ccccc}
+$$\begin{array}{ccccc}
 
 && \text{High-Tier} && \\
 
@@ -79,4 +79,4 @@ Furthermore, this argument works for any integer, as any nonnegative integer is 
 
 \text{Child} &&&& \text{Child}
 
-\end{array}
+\end{array}$$
