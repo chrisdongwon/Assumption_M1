@@ -29,7 +29,7 @@ Lastly, we can easily see that all integers are rational numbers: simply set the
 
 ## Improper Fraction & Mixed Numbers
 
-When the numerator is greater than the denominator in the fraction, we say that the fraction is in its improper form. Formally, we say that $$\frac{n}{d}$$ is an improper fraction if $$n > d$$. When this occurs, we can sometimes __transform__ this fraction to more intuitive quantity called __mixed numbers__. You can obtain a mixed number from an improper fraction by simply performing a long-division. Consider the following example:
+When the numerator is greater than the denominator in the fraction, we say that the fraction is in its improper form. Formally, we say that $$\frac{n}{d}$$ is an improper fraction if $$n > d$$. When this occurs, we can sometimes _transform_ this fraction to more intuitive quantity called **mixed numbers**. You can obtain a mixed number from an improper fraction by simply performing a long-division. Consider the following example:
 
 * We want to express $$\frac{100}{7}$$ as a mixed number. After performing long-division where we divide $$100$$ by $$7$$, it follows that $$100 = 7 \times 14 + 2$$, where $$14$$ is the quotient and $$2$$ is the remainder. It then follows that $$\frac{100}{7} = 14 \frac{2}{7}$$ is the mixed-number representation of the improper fraction. However, I will **always** recommend that you keep your fractions in improper form, because it is easier to perform addition/subtraction and multiplication/division, whereas you always would need to convert the mixed number to an improper fraction prior to these operations.
 
@@ -39,7 +39,9 @@ Notice that we can always go in reverse order from mixed-number form to improper
 
 ## Rational Number Equality & Inequality
 
-* When are two fractions equal? There are two schools of thoughts that are equivalent:
+Suppose that we have two fractions: $$\frac{a}{b}$$ and $$\frac{c}{d}$$. When are two fractions equal?
+
+There are two schools of thoughts that are equivalent:
     1. When $$a = c$$ and $$b = d$$ (The numerators and the denominators are the same)
     2. When $$ad = bc$$ ("Cross-multiplication" technique).
 
