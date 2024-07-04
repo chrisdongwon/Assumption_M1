@@ -108,7 +108,9 @@ Notice in the last prime factorization example that we __extracted__ a prime in 
 
 ## Greatest Common Divisor and Least Common Multiples
 
-Let $$a, b \in \mathbb{N}$$, meaning $$a$$ and $$b$$ are natural numbers (if you don't remember what natural numbers are, scroll to the top!). Recall that $$a$$ is a divisor (also called a factor) of $$b$$ if there exists an integer $$k$$ such that $$b = ak$$, and $$a$$ is a multiple of $$b$$ if there exists an integer $$m$$ such that $$a = bm$$. Given any two natural numbers $$a$$ and $$b$$, there exists a common divisor, $$1$$ to the least, and a common multiple, namely $$ab$$. The list of common divisors for any two nonzero integers is finite, and the list of common multiples is infinitely long. Hence, we can define two numbers known as the GCD and LCM, Greatest Common Divisor and Least Common Multiple, respectively.
+Let $$a, b \in \mathbb{N}$$, meaning $$a$$ and $$b$$ are natural numbers (if you don't remember what natural numbers are, scroll to the top!).
+
+Recall that $$a$$ is a divisor (also called a factor) of $$b$$ if there exists an integer $$k$$ such that $$b = ak$$, and $$a$$ is a multiple of $$b$$ if there exists an integer $$m$$ such that $$a = bm$$. Given any two natural numbers $$a$$ and $$b$$, there exists a common divisor, $$1$$ to the least, and a common multiple, namely $$ab$$. The list of common divisors for any two nonzero integers is finite, and the list of common multiples is infinitely long. Hence, we can define two numbers known as the GCD and LCM, Greatest Common Divisor and Least Common Multiple, respectively.
 
 * Greatest Common Divisor of $$a$$ and $$b$$: among all of the common divisors of $$a$$ and $$b$$, the greatest common divisor, suggested by its name, is the greatest one of them all.
 
