@@ -17,7 +17,7 @@ In summary, a variable is an arbitrary number, but we need to be careful about t
 Now, we have enough background to really _define_ what we mean by fractions. Mathematicians refer to fractions as the _rational numbers_, hence both the terms will be used interchangeably.
 
  * Rational number: a number of the form $$\frac{n}{d}$$, where  
-    1. $$n$$ and $$d$$ are integers  
+    1. $$n$$ and $$d$$ are integers. Symbolically, we write $$n, d \in \mathbb{Z}$$, where $$\in$$ is a symbol for "is an element/member of."
     2. $$d$$ is not zero (For the reasons detailed in the earlier section about division by $$0$$)
     3. all common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_.  
 
