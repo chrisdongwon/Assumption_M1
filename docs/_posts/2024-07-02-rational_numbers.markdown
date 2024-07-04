@@ -42,8 +42,9 @@ Notice that we can always go in reverse order from mixed-number form to improper
 Suppose that we have two fractions: $$\frac{a}{b}$$ and $$\frac{c}{d}$$. When are two fractions equal?
 
 There are two schools of thoughts that are equivalent:
-    1. When $$a = c$$ and $$b = d$$ (The numerators and the denominators are the same)
-    2. When $$ad = bc$$ ("Cross-multiplication" technique).
+
+1. When $$a = c$$ and $$b = d$$ (The numerators and the denominators are the same)
+1. When $$ad = bc$$ ("Cross-multiplication" technique).
 
 To see why the second assertion is true, consider the following:
 * Let's say we want to compare $$\frac{a}{b}$$ and $$\frac{c}{d}$$. In order to compare in fractions, we need to have a common denominator - intuitively speaking, it is because we are counting how many parts when each part is equally _cut_ - and the size of this _cut_ is precisely what we refer to as the denominator (or simply, the divisor). So, it appears that a common multiple of $$b$$ and $$d$$ is simply $$bd$$, and it follows that $$\frac{a}{b} = \frac{a}{b} \cdot 1 = \frac{a}{b} \cdot \frac{d}{d} = \frac{ad}{bd}$$, and similarly, $$\frac{c}{d} = 1 \cdot \frac{c}{d}= \frac{b}{b} \cdot \frac{c}{d} = \frac{bc}{bd}$$. Now can we can use the first reasoning to see how the fractions compare. 
