@@ -18,7 +18,7 @@ Now, we have enough background to really _define_ what we mean by fractions. Mat
 
  * Rational number: a number of the form $$\frac{n}{d}$$, where  
     1. $$n$$ and $$d$$ are integers  
-    2. $$d$$ is not zero (For the reasons detailed in the above section)
+    2. $$d$$ is not zero (For the reasons detailed in the earlier section about division by $$0$$)
     3. all common primes of $$n$$ and $$d$$ in their prime factorizations have been cancelled out. In other words, the fraction is in its _simplest form_.  
 
 As you may have guessed, $$n$$ stands for the numerator, the top number, and $$d$$ stands for denominator.
