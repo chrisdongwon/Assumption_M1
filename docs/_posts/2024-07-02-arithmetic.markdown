@@ -13,7 +13,7 @@ Let us begin with some basic notions of arithmetic (number theory):
 * Natural numbers: $$\mathbb{N} = \{0, 1, 2, \ldots \} $$
 (Here, $$\mathbb{N}$$ represents the _set_ of natural numbers.)  
 
-Notice that the only reasonable operation to perform on the natural numbers is addition, and consequently multiplication, which is simply repeated addition in our case.  
+Notice that the only reasonable operation to perform on the natural numbers is addition, and consequently multiplication, which is simply repeated addition in our case.
 
 Also, it appears that we just need $$0$$ and $$1$$ in order to express any natural number in terms of addition. As an example, $$4 = ((((0 + 1) + 1) + 1) + 1)$$, meaning perhaps, the symbol $$4$$ is simply a representation of four instances of $$1$$ in additional series. For a deep explanation on this, look into [Peano Axioms](https://en.wikipedia.org/wiki/Peano_axioms).
 
@@ -40,7 +40,7 @@ For the most part, yes, with one critical exception - namely zero. To see why $$
 
 Similarly, we see that $$2$$ does not divide into $$5$$ because $$2 \times 2 = 4$$ and $$2 \times 3 = 6$$. There are no integers strictly between $$2$$ and $$3$$, and it appears that such figure is precisely the requirement for $$5$$ to be divisible by $$2$$. Let us formalize this intuition.  
 
-We say a number is divisible by the divisor if there exists some integer such that the integer times the divisor is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$.
+We say a number is divisible by the **divisor** (also known as a _factor_) if there exists some integer such that the integer times the divisor is the number. In other words, an integer $$d$$ divides into another integer $$n$$ if there exists an integer $$k$$ such that $$n = dk$$, meaning $$d$$ times $$k$$. **Remember that when variables are written next to each other with no symbols in between, that always means the numbers represented by those variables are being multiplied.**
 
 So, if $$0$$ has a reciprocal, then that means $$0$$ divides into some integer. As a concrete example, let's see if $$0$$ divides $$100$$. In order for $$100$$ to be divisible by $$0$$, it looks like $$0$$ times some integer should be $$100$$. However, $$0$$ times any number is simply $$0$$. Does $$100$$ equal to $$0$$? Only if you get robbed, meaning this was probably a nonsense to begin with, and we claim that $$0$$ does not divide $$100$$.  
 
@@ -105,3 +105,17 @@ Notice in the last prime factorization example that we __extracted__ a prime in 
 * Because $$1$$ divides any integer, it follows that $$1$$ is a factor for any integer $$n$$, including itself. 
 
 * Things get quite tricky when $$0$$ is concerned. Since $$0$$ times any integer is $$0$$, we could say that any integer is a factor of $$0$$, meaning $$0$$ has infinitely many factors. Thus, in general, the notion of factors is not very applicable for $$0$$ as we often times ask about finitely many factors. 
+
+## Greatest Common Divisor and Least Common Multiples
+
+Let $$a, b \in \mathbb{N}$$, meaning $$a$$ and $$b$$ are natural numbers (if you don't remember what natural numbers are, scroll to the top!). Recall that $$a$$ is a divisor (also called a factor) of $$b$$ if there exists an integer $$k$$ such that $$b = ak$$, and $$a$$ is a multiple of $$b$$ if there exists an integer $$m$$ such that $$a = bm$$. Given any two natural numbers $$a$$ and $$b$$, there exists a common divisor, $$1$$ to the least, and a common multiple, namely $$ab$$. The list of common divisors for any two nonzero integers is finite, and the list of common multiples is infinitely long. Hence, we can define two numbers known as the GCD and LCM, Greatest Common Divisor and Least Common Multiple, respectively.
+
+* Greatest Common Divisor of $$a$$ and $$b$$: among all of the common divisors of $$a$$ and $$b$$, the greatest common divisor, suggested by its name, is the greatest one of them all.
+
+* Least Common multiple of $$a$$ and $$b$$: among all of the common multiples of $$a$$ and $$b$$, the least common multiple, suggested by its name, is the smallest one of them all. 
+
+For example, consider the following:
+
+* The divisors of $$24$$ are $$\{1,2,3,4,6,8,12,24\}$$. The divisors of $$60$$ are $$\{1,2,3,4,5,6,10,12,15,20,30,60\}$$. Hence, the common divisors of $$24$$ and $$60$$ are $$\{1,2,3,4,6,12\}$$ and thus it follows that the maximum amongst the common divisors is $$12$$, i.e. $$GCD(24,60) = 12$$.
+
+* The positive multiples of $$7$$ are $$\{7,14,21,28,35,...\}$$ and the positive multiples of $$3$$ are $$\{3,6,9,12,15,18,21,24,...\}$$. Hence, the common multiples of $$7$$ and $$3$$ are $$\{21,42,63,...\}$$, thus it follows that the minimum of the common multiples is $$21$$, i.e. $$LCM(7,3) = 21$$. 
