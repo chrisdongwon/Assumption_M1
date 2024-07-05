@@ -8,7 +8,7 @@ katex: True
 
 ## Preview of Algebra: Variables
 
-Let us recall that a variable is simply a representation of any number. To be more precise, variables are arbitrary members of a specific mathematical _set_. As an example, I can say that $$x$$ is a number from the sets of fractions excluding the integers. Notice that with this restriction, $$x$$ can't really be _any_ number. Traditionally, $$x$$ is the designated letter/symbol for a variable. When other variables need to be referenced, other letters can be used as well. However, let us remember that same instance of the variables refer to the same value. As an example, the expression $$x \cdot x$$ refers to multiplication where the left $$x$$ and the right $$x$$ refer to the same value designated for $$x$$.  
+Let us recall that a variable is simply a representation of any number. To be more precise, variables are arbitrary members of a specific mathematical _set_. As an example, I can say that $$x$$ is a number from the sets of fractions excluding the integers. Notice that with this restriction, $$x$$ can't really be _any_ number. Traditionally, $$x$$ is the designated letter/symbol for a variable. When other variables need to be referenced, other letters can be used as well. However, let us remember that same instance of the variables refer to the same value. As an example, the expression $$x \cdot x$$ refers to **multiplication** where the left $$x$$ and the right $$x$$ refer to the same value designated for $$x$$.  
 
 In summary, a variable is an arbitrary number, but we need to be careful about the _set_ of numbers that $$x$$ is originating from. 
 
@@ -31,11 +31,11 @@ Lastly, we can easily see that all integers are rational numbers: simply set the
 
 When the numerator is greater than the denominator in the fraction, we say that the fraction is in its improper form. Formally, we say that $$\frac{n}{d}$$ is an improper fraction if $$n > d$$. When this occurs, we can sometimes _transform_ this fraction to more intuitive quantity called **mixed numbers**. You can obtain a mixed number from an improper fraction by simply performing a long-division. Consider the following example:
 
-* We want to express $$\frac{100}{7}$$ as a mixed number. After performing long-division where we divide $$100$$ by $$7$$, it follows that $$100 = 7 \times 14 + 2$$, where $$14$$ is the quotient and $$2$$ is the remainder. It then follows that $$\frac{100}{7} = 14 \frac{2}{7}$$ is the mixed-number representation of the improper fraction. However, I will **always** recommend that you keep your fractions in improper form, because it is easier to perform addition/subtraction and multiplication/division, whereas you always would need to convert the mixed number to an improper fraction prior to these operations.
+* We want to express $$\frac{100}{7}$$ as a mixed number. After performing long-division where we divide $$100$$ by $$7$$, it follows that $$100 = 7 \cdot 14 + 2$$, where $$14$$ is the quotient and $$2$$ is the remainder. It then follows that $$\frac{100}{7} = 14 \frac{2}{7}$$ is the mixed-number representation of the improper fraction. However, I will **always** recommend that you keep your fractions in improper form, because it is easier to perform addition/subtraction and multiplication/division, whereas you always would need to convert the mixed number to an improper fraction prior to these operations.
 
 Notice that we can always go in reverse order from mixed-number form to improper fraction by simply considering what we mean by the mixed-number representation. Consider the following example:
 
-* Let's convert $$5 \frac{7}{9}$$ to the improper fraction form. By recognizing that $$5\frac{7}{9} = 5 + \frac{7}{9}$$, it simply follows that $$5 + \frac{7}{9} = 5 \times \frac{9}{9} + \frac{7}{9} = \frac{45}{9} + \frac{7}{9} = \frac{52}{9}$$ by obtaining the common denominator of $$9$$.
+* Let's convert $$5 \frac{7}{9}$$ to the improper fraction form. By recognizing that $$5\frac{7}{9} = 5 + \frac{7}{9}$$, it simply follows that $$5 + \frac{7}{9} = 5 \cdot \frac{9}{9} + \frac{7}{9} = \frac{45}{9} + \frac{7}{9} = \frac{52}{9}$$ by obtaining the common denominator of $$9$$.
 
 ## Rational Number Equality & Inequality
 
@@ -47,7 +47,7 @@ There are two schools of thoughts that are equivalent:
 1. When $$ad = bc$$ ("Cross-multiplication" technique).
 
 To see why the second assertion is true, consider the following:
-* Let's say we want to compare $$\frac{a}{b}$$ and $$\frac{c}{d}$$. In order to compare in fractions, we need to have a common denominator - intuitively speaking, it is because we are counting how many parts when each part is equally _cut_ - and the size of this _cut_ is precisely what we refer to as the denominator (or simply, the divisor). So, it appears that a common multiple of $$b$$ and $$d$$ is simply $$bd$$, and it follows that $$\frac{a}{b} = \frac{a}{b} \times 1 = \frac{a}{b} \times \frac{d}{d} = \frac{ad}{bd}$$, and similarly, $$\frac{c}{d} = 1 \times \frac{c}{d}= \frac{b}{b} \times \frac{c}{d} = \frac{bc}{bd}$$. Now can we can use the first reasoning to see how the fractions compare. 
+* Let's say we want to compare $$\frac{a}{b}$$ and $$\frac{c}{d}$$. In order to compare in fractions, we need to have a common denominator - intuitively speaking, it is because we are counting how many parts when each part is equally _cut_ - and the size of this _cut_ is precisely what we refer to as the denominator (or simply, the divisor). So, it appears that a common multiple of $$b$$ and $$d$$ is simply $$bd$$, and it follows that $$\frac{a}{b} = \frac{a}{b} \cdot 1 = \frac{a}{b} \cdot \frac{d}{d} = \frac{ad}{bd}$$, and similarly, $$\frac{c}{d} = 1 \cdot \frac{c}{d}= \frac{b}{b} \cdot \frac{c}{d} = \frac{bc}{bd}$$. Now can we can use the first reasoning to see how the fractions compare. 
 
 * Provided that the fractions in comparison are both positive, how do we see which fraction is greater? There are a few techniques to facilitate this:
   1. If the denominators are the same, simply compare the numerators (E.g. How many slices of pie did I eat vs. did you eat?)  
