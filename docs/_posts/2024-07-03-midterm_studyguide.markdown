@@ -28,9 +28,7 @@ $$
 
 1. What is the condition for fraction addition/subtraction? Compute $$\frac{2}{3} + \frac{5}{7}$$. Hint: you need a common ...
 
-* Solution: Addition on a pair of rational numbers is well-defined if and only if the rational numbers have a **common denominator**. There is a _formula_ that you may use to facilitate the addition/subtraction as indicated in the article:
-
-$$\frac{2}{3} + \frac{5}{7} = \frac{2 \times 7 + 3 \times 5}{3 \times 7} = \frac{14 + 15}{21} = \frac{29}{21}$$. Improper fractions are acceptable as answers as long as the question does not specify that your answer must be in a mixed-number representation.
+* Solution: Addition on a pair of rational numbers is well-defined if and only if the rational numbers have a **common denominator**. There is a _formula_ that you may use to facilitate the addition/subtraction as indicated in the article: $$\frac{2}{3} + \frac{5}{7} = \frac{2 \times 7 + 3 \times 5}{3 \times 7} = \frac{14 + 15}{21} = \frac{29}{21}$$. Improper fractions are acceptable as answers as long as the question does not specify that your answer must be in a mixed-number representation.
 
 1. How do you divide by a fraction? Compute $$\frac{2}{3} \div \frac{5}{7}$$. Hint: division is multiplication by ...
 
@@ -44,10 +42,10 @@ $$\frac{2}{3} + \frac{5}{7} = \frac{2 \times 7 + 3 \times 5}{3 \times 7} = \frac
 
 * Solution: Let us list the (positive) common multiples and the common divisors of $$12$$ and $$20$$.
 
-  ** Multiples of 12: $$\{12, 24, 36, 48, 60, 72, ...\}$$
-  ** Multiples of 20: $$\{20, 40, 60, 80, 100, 120, ...\}$$
+  * Multiples of 12: $$\{12, 24, 36, 48, 60, 72, ...\}$$
+  * Multiples of 20: $$\{20, 40, 60, 80, 100, 120, ...\}$$
   Hence, it appears that $$60$$ is the least common multiple.
 
-  ** Divisors of 12: $$\{1,2,3,4,6,12\}$$
-  ** Divisors of 20: $$\{1,2,4,5,10,20\}$$
+  * Divisors of 12: $$\{1,2,3,4,6,12\}$$
+  * Divisors of 20: $$\{1,2,4,5,10,20\}$$
   Hence, it appears that $$4$$ is the greatest common divisor.
