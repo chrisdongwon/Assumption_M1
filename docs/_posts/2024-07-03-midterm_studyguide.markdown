@@ -16,15 +16,15 @@ Answer the following as a review for your upcoming midterm exam. Make sure to sh
 
     * Solution: The prime factorization of $$76$$ is $$2 \times 2 \times 19 = 2^2 \times 19$$ (as long as all the primes are present, the answer is considered correct regardless of order and the usage of the exponential notation). One possible tree might look something like:
 
-$$
-\begin{array}{c}
-    76 \\
-    / \quad \ \backslash \\
-    2 \quad \ 38 \\
-    \quad \quad / \quad \backslash \\
-    \quad \quad 2 \quad \ 19 \\
-\end{array}
-$$
+    $$
+    \begin{array}{c}
+        76 \\
+        / \quad \ \backslash \\
+        2 \quad \ 38 \\
+        \quad \quad / \quad \backslash \\
+        \quad \quad 2 \quad \ 19 \\
+    \end{array}
+    $$
 
 1. What is the condition for fraction addition/subtraction? Compute $$\frac{2}{3} + \frac{5}{7}$$. Hint: you need a common ...
 
