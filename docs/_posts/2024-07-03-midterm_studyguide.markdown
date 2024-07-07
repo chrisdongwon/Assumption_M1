@@ -44,8 +44,10 @@ $$
 
   * Multiples of 12: $$\{12, 24, 36, 48, 60, 72, ...\}$$
   * Multiples of 20: $$\{20, 40, 60, 80, 100, 120, ...\}$$
+  
   Hence, it appears that $$60$$ is the least common multiple.
 
   * Divisors of 12: $$\{1,2,3,4,6,12\}$$
   * Divisors of 20: $$\{1,2,4,5,10,20\}$$
+  
   Hence, it appears that $$4$$ is the greatest common divisor.
